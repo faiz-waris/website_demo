@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Blog Website</title>
+  <style>
+    /* CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #2F4F4F;
+      background-image: url('https://amymhaddad.s3.amazonaws.com/morocco-blue.png'); /* Replace with your own image URL */
+      background-size: cover;
+      background-position: center;
+    }
+    header {
+      background-color: #F0E68C;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    nav {
+      margin-top: 20px;
+      text-align: center;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    .main-content {
+      max-width: 960px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .segment {
+      margin-bottom: 40px;
+    }
+    .segment h2 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .sub-segment {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      padding: 20px;
+      background-color: #FAEBD7;
+      background-image:url('paper.gif');
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .sub-segment h3 {
+      color: #333;
+      font-size: 18px;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      text-transform: uppercase;
+      transition: all 0.3s ease;
+    }
+    .sub-segment p {
+      color: #666;
+    }
+    .sub-segment:hover {
+      background-color: #F5DEB3;
+    }
+    .sub-segment:hover h3 {
+      text-transform: none;
+      color: #FF4500;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #F0E68C;
+      color: #333;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: bold;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .button:hover {
+      background-color: #FFD700;
+      color: #FFF;
+      transform: scale(1.1);
+    }
+    nav ul li a.button {
+    background-color: #FFE4E1;
+  }
+  footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+  }
+  footer ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+  }
+  footer ul li {
+      display: inline;
+      margin-right: 10px;
+  }
+  footer ul li a {
+      color: #fff;
+      text-decoration: none;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Blog Website</h1>
+    <nav>
+      <ul>
+        <li><a class="button" href="#news-feeds">News Feeds</a></li>
+        <li><a class="button" href="#upcoming-events">Upcoming Events</a></li>
+        <li><a class="button" href="#jobs">Jobs</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="main-content">
+    <div id="news-feeds" class="segment">
+      <h2>News Feeds</h2>
+      <div class="sub-segment">
+        <h3>Latest Updates</h3>
+        <p>Stay updated with the latest news and trends in the industry.</p>
+      </div>
+      <div class="sub-segment">
+        <h3>Technology News</h3>
+        <p>Discover the latest advancements in technology and innovation.</p>
+      </div>
+      <div class="sub-segment">
+        <h3>Entertainment Buzz</h3>
+        <p>Get your daily dose of entertainment news, celebrity gossip, and more.</p>
+      </div>
+      <div class="sub-segment">
+        <h3>Health and Wellness</h3>
+        <p>Explore articles and tips for maintaining a healthy lifestyle.</p>
+      </div>
+      <div class="sub-segment">
+        <h3>Travel Stories</h3>
+        <p>Read fascinating travel experiences and plan your next adventure.</p>
+      </div>
+      <div class="sub-segment">
+        <h3>Food and Recipes</h3>
+        <p>Discover mouthwatering recipes and culinary inspiration.</p>
+      </div>
+      <div class="sub-segment">
+        <h3>Fashion and Style</h3>
+        <p>Stay up-to-date with the latest fashion trends and style tips.</p>
+      </div>
+    </div>
+
+    <div id="upcoming-events" class="segment">
+      <h2>Upcoming Events</h2>
+      <div class="sub-segment">
+        <h3>Conference 2023</h3>
+        <p>Date: July 15-17, 2023<br>Location: New York City</p>
+      </div>
+      <div class="sub-segment">
+        <h3>Workshop Series</h3>
+        <p>Date: August 5-7, 2023<br>Location: Online</p>
+      </div>
+      <div class="sub-segment">
+        <h3>Networking Meetup</h3>
+        <p>Date: September 10, 2023<br>Location: San Francisco</p>
+      </div>
+      <div class="sub-segment">
+        <h3>Seminar on Innovation</h3>
+        <p>Date: October 20, 2023<br>Location: London</p>
+      </div>
+      <div class="sub-segment">
+        <h3>Charity Event</h3>
+        <p>Date: November 12, 2023<br>Location: Chicago</p>
+      </div>
+      <div class="sub-segment">
+        <h3>Product Launch</h3>
+        <p>Date: December 5, 2023<br>Location: Los Angeles</p>
+      </div>
+    </div>
+
+    <div id="jobs" class="segment">
+      <h2>Jobs</h2>
+      <div class="sub-segment">
+        <h3>Software Engineer at Example Company</h3>
+        <p>Join Example Company's dynamic team and contribute to cutting-edge software development projects.</p>
+      </div>
+      <div class="sub-segment">
+        <h3>Marketing Specialist at Example Company</h3>
+        <p>Drive marketing campaigns and strategies to promote Example Company's brand and products.</p>
+      </div>
+      <div class="sub-segment">
+        <h3>Graphic Designer at Example Company</h3>
+        <p>Create visually stunning designs for various digital and print media at Example Company.</p>
+      </div>
+      <div class="sub-segment">
+        <h3>Content Writer at Example Company</h3>
+        <p>Produce engaging and informative content across different topics and platforms at Example Company.</p>
+      </div>
+      <div class="sub-segment">
+        <h3>Project Manager at Example Company</h3>
+        <p>Lead cross-functional teams and ensure successful project delivery at Example Company.</p>
+      </div>
+      <div class="sub-segment">
+        <h3>Business Analyst at Example Company</h3>
+        <p>Analyze data and provide valuable insights to drive strategic decision-making at Example Company.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <ul>
+      <li><a href="#about-us">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#privacy-policy">Privacy Policy</a></li>
+      <li><a href="#terms-of-service">Terms of Service</a></li>
+      <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+      <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+      <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
